@@ -1,5 +1,5 @@
 # Use an official lightweight Python image
-FROM python:3.10-slim
+FROM python:3.11-slim
 
 # Set the working directory inside the container
 WORKDIR /app
@@ -14,7 +14,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Expose the port your Flask app runs on
-EXPOSE 8080
+EXPOSE 8000
 
-# The command to run your application
-CMD ["python", "app.py"]
+# The command to run your application (assumes your file is main.py and flask object is named app)
+CMD ["gunicorn", "--bind", "0.0.0.0:8000", "main:app"]

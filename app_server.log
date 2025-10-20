@@ -40,3 +40,21 @@
 2025-10-20 13:26:56,047 [INFO] (Thread-11 (process_request_thread)) 127.0.0.1 - - [20/Oct/2025 13:26:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
 2025-10-20 13:27:55,142 [INFO] (BacktestRunner) Backtest script finished successfully.
 2025-10-20 13:27:55,145 [INFO] (BacktestRunner) Backtest status set to 'not running'.
+2025-10-20 16:18:34,551 [INFO] (MainThread) Starting web server. Access on http://<your_ip>:8080
+2025-10-20 16:18:34,603 [INFO] (MainThread) [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.3:8080
+2025-10-20 16:18:34,603 [INFO] (MainThread) [33mPress CTRL+C to quit[0m
+2025-10-20 16:18:37,452 [INFO] (Thread-1 (process_request_thread)) 127.0.0.1 - - [20/Oct/2025 16:18:37] "[33mGET / HTTP/1.1[0m" 404 -
+2025-10-20 16:18:37,860 [INFO] (Thread-2 (process_request_thread)) 127.0.0.1 - - [20/Oct/2025 16:18:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-10-20 16:18:41,917 [INFO] (Thread-3 (process_request_thread)) Received /start request. Starting backtest in background thread...
+2025-10-20 16:18:41,918 [INFO] (BacktestRunner) Backtest script started...
+2025-10-20 16:18:41,918 [INFO] (Thread-3 (process_request_thread)) 127.0.0.1 - - [20/Oct/2025 16:18:41] "[35m[1mGET /start HTTP/1.1[0m" 202 -
+2025-10-20 16:19:29,203 [INFO] (BacktestRunner) Backtest script finished successfully.
+2025-10-20 16:19:29,207 [INFO] (BacktestRunner) Backtest status set to 'not running'.
+2025-10-20 16:22:13,642 [INFO] (Thread-6 (process_request_thread)) Received /start request. Starting backtest in background thread...
+2025-10-20 16:22:13,648 [INFO] (BacktestRunner) Backtest script started...
+2025-10-20 16:22:13,651 [INFO] (Thread-6 (process_request_thread)) 127.0.0.1 - - [20/Oct/2025 16:22:13] "[35m[1mGET /start HTTP/1.1[0m" 202 -
+2025-10-20 16:22:54,783 [INFO] (BacktestRunner) Backtest script finished successfully.
+2025-10-20 16:22:54,783 [INFO] (BacktestRunner) Backtest status set to 'not running'.

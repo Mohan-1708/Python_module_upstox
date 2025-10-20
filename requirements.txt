@@ -1,0 +1,7 @@
+pandas
+upstox-python-sdk
+python-dotenv
+backports.zoneinfo; python_version < "3.9"
+SQLAlchemy
+mysql-connector-python
+flask

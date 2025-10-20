@@ -1,0 +1,42 @@
+2025-10-20 11:41:53,203 [INFO] (MainThread) Starting web server. Access on http://<your_ip>:8080
+2025-10-20 11:41:53,281 [INFO] (MainThread) [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.2:8080
+2025-10-20 11:41:53,287 [INFO] (MainThread) [33mPress CTRL+C to quit[0m
+2025-10-20 11:42:31,739 [INFO] (Thread-1) Received /start request. Starting backtest in background thread...
+2025-10-20 11:42:31,739 [INFO] (BacktestRunner) Backtest script started...
+2025-10-20 11:42:31,739 [INFO] (Thread-1) 192.168.1.3 - - [20/Oct/2025 11:42:31] "[35m[1mGET /start HTTP/1.1[0m" 202 -
+2025-10-20 11:42:31,818 [INFO] (Thread-2) 192.168.1.3 - - [20/Oct/2025 11:42:31] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-10-20 11:43:21,277 [INFO] (BacktestRunner) Backtest script finished successfully.
+2025-10-20 11:43:21,277 [INFO] (BacktestRunner) Backtest status set to 'not running'.
+2025-10-20 11:46:21,541 [INFO] (Thread-5) Received /start request. Starting backtest in background thread...
+2025-10-20 11:46:21,543 [INFO] (BacktestRunner) Backtest script started...
+2025-10-20 11:46:21,546 [INFO] (Thread-5) 192.168.1.4 - - [20/Oct/2025 11:46:21] "[35m[1mGET /start HTTP/1.1[0m" 202 -
+2025-10-20 11:46:21,746 [INFO] (Thread-6) 192.168.1.4 - - [20/Oct/2025 11:46:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-10-20 11:47:15,246 [INFO] (BacktestRunner) Backtest script finished successfully.
+2025-10-20 11:47:15,246 [INFO] (BacktestRunner) Backtest status set to 'not running'.
+2025-10-20 11:56:30,924 [INFO] (Thread-9) Received /start request. Starting backtest in background thread...
+2025-10-20 11:56:30,932 [INFO] (BacktestRunner) Backtest script started...
+2025-10-20 11:56:30,932 [INFO] (Thread-9) 192.168.1.3 - - [20/Oct/2025 11:56:30] "[35m[1mGET /start HTTP/1.1[0m" 202 -
+2025-10-20 11:57:41,442 [INFO] (BacktestRunner) Backtest script finished successfully.
+2025-10-20 11:57:41,442 [INFO] (BacktestRunner) Backtest status set to 'not running'.
+2025-10-20 13:18:22,590 [INFO] (MainThread) Starting web server. Access on http://<your_ip>:8080
+2025-10-20 13:18:22,639 [INFO] (MainThread) [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.3:8080
+2025-10-20 13:18:22,639 [INFO] (MainThread) [33mPress CTRL+C to quit[0m
+2025-10-20 13:18:30,285 [INFO] (Thread-1 (process_request_thread)) 127.0.0.1 - - [20/Oct/2025 13:18:30] "[33mGET / HTTP/1.1[0m" 404 -
+2025-10-20 13:18:30,549 [INFO] (Thread-2 (process_request_thread)) 127.0.0.1 - - [20/Oct/2025 13:18:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-10-20 13:18:35,088 [INFO] (Thread-3 (process_request_thread)) Received /start request. Starting backtest in background thread...
+2025-10-20 13:18:35,088 [INFO] (BacktestRunner) Backtest script started...
+2025-10-20 13:18:35,089 [INFO] (Thread-3 (process_request_thread)) 127.0.0.1 - - [20/Oct/2025 13:18:35] "[35m[1mGET /start HTTP/1.1[0m" 202 -
+2025-10-20 13:19:07,674 [INFO] (BacktestRunner) Backtest script finished successfully.
+2025-10-20 13:19:07,675 [INFO] (BacktestRunner) Backtest status set to 'not running'.
+2025-10-20 13:26:55,671 [INFO] (Thread-8 (process_request_thread)) Received /start request. Starting backtest in background thread...
+2025-10-20 13:26:55,674 [INFO] (BacktestRunner) Backtest script started...
+2025-10-20 13:26:55,676 [INFO] (Thread-8 (process_request_thread)) 127.0.0.1 - - [20/Oct/2025 13:26:55] "[35m[1mGET /start HTTP/1.1[0m" 202 -
+2025-10-20 13:26:56,047 [INFO] (Thread-11 (process_request_thread)) 127.0.0.1 - - [20/Oct/2025 13:26:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-10-20 13:27:55,142 [INFO] (BacktestRunner) Backtest script finished successfully.
+2025-10-20 13:27:55,145 [INFO] (BacktestRunner) Backtest status set to 'not running'.

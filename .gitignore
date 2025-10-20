@@ -1,0 +1,13 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment file
+.env
+
+# Data and results
+*.csv
+/results/
+
+# Exclude the input list
+!ind_nifty200list.csv
